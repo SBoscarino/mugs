@@ -1,0 +1,30 @@
+/*global theme: more than one page affected*/
+.sassy {
+font-family: 'Josefin Slab', serif;
+background-color: #7dc9ab;
+color: #f69d9f;
+}
+
+.regular {
+  font-family: 'Josefin Slab', serif;
+  background-color: #f69d9f;
+  color: #7dc9ab;
+}
+
+.top {
+  text-align: center;
+  background-color: #f36265;
+  margin: 0;
+}
+
+
+/*Singles*/
+img {
+  width: 250px;
+  height: 250px;
+}
+
+.items {
+  display: flex;
+
+}

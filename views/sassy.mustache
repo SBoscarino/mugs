@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hot Mugs</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+  </head>
+  <body class="sassy">
+
+    <div class="top">
+    <h1>Our collection of 'Sassy' mugs</h1>
+    <p><a href='/'>See our whole collection of mugs</a></p>
+    </div>
+    {{#rows}}
+    <div class='items'>
+      <img src='{{amazon_photo}}'>
+      <h3>{{title}}</h3>
+      <h4>${{price}}</h4>
+      <a href='{{amazon_url}}'>click to buy</a>
+    </div>
+    {{/rows}}
+
+  </body>
+</html>
